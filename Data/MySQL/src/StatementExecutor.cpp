@@ -34,7 +34,7 @@
 //
 
 
-#include <mysql.h>
+#include <mysql/mysql.h>
 #include "Poco/Data/MySQL/StatementExecutor.h"
 #include <sstream>
 

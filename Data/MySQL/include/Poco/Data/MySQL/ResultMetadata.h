@@ -40,7 +40,7 @@
 #define Data_MySQL_ResultMetadata_INCLUDED
 
 
-#include <mysql.h>
+#include <mysql/mysql.h>
 #include <vector>
 #include "Poco/Data/MetaColumn.h"
 

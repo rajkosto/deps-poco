@@ -46,7 +46,7 @@
 #ifdef _WIN32
 #include <Winsock2.h>
 #endif 
-#include <mysql.h>
+#include <mysql/mysql.h>
 #include <iostream>
 
 
@@ -1405,7 +1405,7 @@ void SQLExecutor::internalExtraction()
 		int i = rset.value<int>(0,0);
 		assert (1 == i);
 
-		std::string s = rset.value(0,0);
+		std::string s = rset.value<std::string>(0,0);
 		assert ("1" == s);
 
 		int a = rset.value<int>(0,2);

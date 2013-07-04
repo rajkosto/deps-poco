@@ -40,7 +40,7 @@
 #define Data_MySQL_StatementHandle_INCLUDED
 
 
-#include <mysql.h>
+#include <mysql/mysql.h>
 #include "Poco/Data/MySQL/MySQLException.h"
 #include <vector>
 
