@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)Foundation\include;$(MSBuildThisFileDirectory)Net\include;$(MSBuildThisFileDirectory)Util\include;$(MSBuildThisFileDirectory)XML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)Foundation\include;$(MSBuildThisFileDirectory)Net\include;$(MSBuildThisFileDirectory)Util\include;$(MSBuildThisFileDirectory)XML\include;$(MSBuildThisFileDirectory)Zip\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>POCO_NO_UNWINDOWS;POCO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4250;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
