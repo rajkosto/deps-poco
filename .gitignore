@@ -137,7 +137,8 @@
 /Zip/samples/unzip/bin
 /Zip/samples/zip/bin
 /Zip/testsuite/bin
-ipch
+ipch/
+.vs/
 *.suo
 *.sdf
 *.opensdf
